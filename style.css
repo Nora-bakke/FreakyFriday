@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.trump{
+  position: absolute;
+  margin-top: -630px;
+  margin-left: 120px;
+  width: 300px;
+}
+.infoboxT{
+  position: absolute;
+  margin-top: -320px;
+  margin-left: 170px;
+  font-size: 25px;
+}
+
+.biden{
+  position: absolute;
+  margin-top: -665px;
+  margin-left: 1000px;
+  width: 300px;
+}
+.infoboxB{
+  position: absolute;
+  margin-top: -310px;
+  margin-left: 1090px;
+  font-size: 25px;
+}
+
+.heading{
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 410px;
+  font-size: 30px;
+}
+
+h1:hover{
+  color: #fff;
+}
+
+.trump2{
+  position: absolute;
+  margin-top: -600px;
+  height: 300px;
+  width: auto;
+  margin-left: 100px;
+}
+.biden2{
+  position: absolute;
+  margin-top: -600px;
+  height: 300px;
+  width: auto;
+  margin-left: 100px;
+}
+
+.containerB{
+  position: absolute;
+  margin-right: 200px;
+  margin-top: -600px;
+  margin-left: 800px;
+}
+.containerT{
+  position: absolute;
+  margin-right: 200px;
+  margin-top: -600px;
+  margin-left: 800px;
+}
+
+.CFT{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 40px;
+  font-size: 30px;
+  font-style: italic;
+}
+.CFB{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .trump{
+    position: absolute;
+    margin-top: -610px;
+    margin-left: 10px;
+    width: 150px;
+  }
+  .infoboxT{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .biden{
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 400px;
+    width: 150px;
+  }
+  .infoboxB{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 400px;
+    font-size: 15px;
+  }
+
+  .heading{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 110px;
+    font-size: 20px;
+  }
+
+  h1:hover{
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .trump2{
+    position: absolute;
+    margin-top: -750px;
+    height: 150px;
+    width: auto;
+    margin-left: 70px;
+  }
+  .containerT{
+    position: absolute;
+    margin-right: 200px;
+    margin-top: -550px;
+    margin-left: 40px;
+  }
+
+  .CFT{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .biden2{
+    position: absolute;
+    margin-top: -780px;
+    height: 150px;
+    width: auto;
+    margin-left: 70px;
+  }
+  .containerB{
+    position: absolute;
+    margin-right: 200px;
+    margin-top: -590px;
+    margin-left: 40px;
+  }
+  .CFB{
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-style: italic;
+  }
+}
